@@ -1,2 +1,98 @@
-<h1>Pages#pricing</h1>
-<p>Find me in app/views/pages/pricing.html.erb</p>
+<div class="text-center">
+	<br>
+	<h1 class="text-4xl">Podcasting is easy and affordable!</h1>
+	<br>
+	<h3 class="text-2xl">- If you work with the right people -</h3>
+</div>
+
+<div class=" flex flex-col items-center px-5 py-8 mx-auto max-w-7xl sm:px-6 lg:px-8">
+   <div class="flex flex-col w-full max-w-3xl mx-auto prose text-center">
+    	<div class="w-full mx-auto text-justify ">	
+		
+		<p>We have been creating podcasts for years and we have seen that there are many wrong ways to go with podcasting but only one right way. Check out our experience and takeaways here: 
+			<em> <%= link_to "A podcast is a turtle not a rabbit.", about_path, class: 'no-underline hover:underline ...' %></em></p>
+
+		<p>So podcast is an audio programme and we keep our services centered around that fact. Also, podcasts are all about storytelling - you tell stories about your life, your work, your ideas and get people into your world.</p>
+
+		<p>Stories you tell ARE going to draw people to you and your business which WILL get you money, connections, opportunities.</p>
+
+		<p>That’s why podcasts should be simple, fun and easy to produce. Don’t spend too much time or money on it, enjoy creating them so your audience can enjoy listening to you. </p>
+
+		<p class="text-center">And our services are designed to fit this approach:</p>
+		
+		</div>
+	</div>
+</div>
+
+<section>
+	  <div class="relative items-center w-full py-12 mx-auto md:px-12 lg:px-16 max-w-7xl">
+    <div class="grid grid-cols-1 gap-12 text-center lg:gap-24 lg:grid-cols-3">
+      <div>
+        <div class="p-6 mx-auto">
+          <span class="mb-8 text-base font-semibold tracking-widest text-blue-600 uppercase"> Pay Per Episode </span>
+
+          <strong class="flex items-end justify-center mx-auto mt-4 mb-8 text-3xl font-black leading-none text-center text-gray-500 lg:text-4xl">
+            $75
+            <span class="text-sm"> /mo </span>
+          </strong>
+          <span class="mx-auto text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl"> Audio Production </span>
+          <p class="mx-auto mt-12 text-base text-gray-500 lading-relaxed">
+          	<em>Optional:</em> <br>
+			<strong>Show notes - $30</strong> <br>
+			<strong>Audiograms</strong> (audio-visual snippets) with quotes for social media promotion <strong>- $45</strong>
+</p>
+          <div class="mt-6">
+            <a href="#" class="w-full items-center block px-10 py-3.5 text-base font-medium text-center text-blue-600 transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">All for $150</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="p-6 mx-auto">
+          <span class="mb-8 text-base font-semibold tracking-widest text-blue-600 uppercase"> Pay Monthly </span>
+
+          <strong class="flex items-end justify-center mx-auto mt-4 mb-8 text-3xl font-black leading-none text-center text-gray-500 lg:text-4xl">
+            $250
+            <span class="text-sm"> /mo </span>
+          </strong>
+          <span class="mx-auto text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl"> Audio Production </span>
+          <p class="mx-auto mt-12 text-base text-gray-500 lading-relaxed">
+          	<em>Optional:</em> <br>
+			<strong>Show notes - $100</strong> <br>
+			<strong>Audiograms</strong> (audio-visual snippets) with quotes for social media promotion <strong>- $150</strong>
+          </p>
+          <div class="mt-6">
+            <a href="#" class="flex items-center justify-center w-full px-10 py-4 text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">All for $500</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="p-6 mx-auto">
+          <span class="mb-8 text-base font-semibold tracking-widest text-blue-600 uppercase"> One Time Fee </span>
+
+          <strong class="flex items-end justify-center mx-auto mt-4 mb-8 text-3xl font-black leading-none text-center text-gray-500 lg:text-4xl">
+            $150
+            <span class="text-sm"> /mo </span>
+          </strong>
+          <span class="mx-auto text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl"> Publishing and Audio Setup </span>
+          <p class="mx-auto mt-12 text-base text-gray-500 lading-relaxed">
+          	<em>Optional:</em> <br>
+			<strong>Artwork Design - $50</strong> <br>
+			<strong>Licensed Music - $50</strong>
+          </p>
+          <div class="mt-6">
+            <a href="#" class="w-full items-center block px-10 py-3.5 text-base font-medium text-center text-blue-600 transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">All for $250</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="text-center">
+	<br>
+	<p><em>Other services include:</em> video editing, transcription, booking shows, finding guests...</p>
+	<br>
+	<p>Or get <b><%= link_to "in touch", contact_path %></b> for a custom made service, we're open to any requests!</p>
+	<br>
+	<h3 class="text-2xl"></h3>
+</div>
