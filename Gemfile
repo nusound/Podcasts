@@ -66,3 +66,5 @@ end
 
 
 gem "tailwindcss-rails", "~> 2.0"
+gem 'mail_form', '~> 1.9'
+
