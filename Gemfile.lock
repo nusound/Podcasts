@@ -186,7 +186,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
-  mail_form
+  mail_form (~> 1.9)
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.4)

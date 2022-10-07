@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  get 'about', to: 'pages#about'
+  get 'why-turtle', to: 'pages#about', as: 'why_turtle'
   get 'pricing', to: 'pages#pricing'
   # get 'contact', to: 'pages#contact'
 

@@ -6,7 +6,7 @@
             <%= link_to "Who We Are", root_path, class: "mr-4 hover:underline md:mr-6" %>
         </li>
         <li>
-            <%= link_to "Why Turtle", about_path, class: "mr-4 hover:underline md:mr-6" %>
+            <%= link_to "Why Turtle", why_turtle_path, class: "mr-4 hover:underline md:mr-6" %>
         </li>
         <li>
 
@@ -16,17 +16,15 @@
             <%= link_to "Contact", contact_path, class: "hover:underline" %>
         </li>
     </ul>
+
+    <a class="nline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0" href="https://lovepik.com/images/png-anthropomorphic-animal.html">Our Turtle is from  Lovepik.com</a>
 </footer>
 
 
 <footer class="text-gray-600 body-font">
   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-    <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-      </svg>
-      <span class="ml-3 text-xl">Turtle Podcasts</span>
-    </a>
+    <%= image_tag "Lovepik_com-401527901-tortoise.png", class: 'w-100',
+  style: 'max-width: 3rem;' %>
     <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 Turtle Podcasts
      
     </p>
